@@ -1,6 +1,5 @@
-index.js
 
-const Discord = require('discord.js');
+nst Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
