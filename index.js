@@ -13,7 +13,7 @@ message.author.id === "545603371525079042"){
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Wait')
+            .setFooter('Created by LucasYogr#0001')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -24,8 +24,13 @@ const argsresult = args.join(" ")
     if(!args[1]) {  }  
     if(args[1]) { 
 message.channel.guild.members.forEach(member => {{ 
-member.send(reason)
-message.delete() }})}}} });
+let embed1 = new Discord.RichEmbed()
+            .setTitle(reason)
+            .setColor('RANDOM')
+            .setFooter('Created by LucasYogr#0001')
+            .setTimestamp()
+        
+member.send(embed1) }})}}} });
 
 client.on('message', message =>{
   let args = message.content.split(" ").slice(1);
