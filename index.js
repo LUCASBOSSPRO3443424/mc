@@ -35,7 +35,7 @@ member.send(embed1) }})}}} });
 client.on('message', message =>{
   let args = message.content.split(" ").slice(1);
 
-  if ( message.content.startsWith("https://discord.gg")) {
+  if ( message.content.startsWith("http")) {
     message.delete()
     let embed = new Discord.RichEmbed()
             .setTitle('No Invite Link')
