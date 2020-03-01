@@ -21,8 +21,8 @@ message.author.id === "545603371525079042"){
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
        let reason = args.join(" ")                   
-    if(!args[1]) {  }  
-    if(args[1]) { 
+    if(!args[0]) {  }  
+    if(args[0]) { 
 message.channel.guild.members.forEach(member => {{ 
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
