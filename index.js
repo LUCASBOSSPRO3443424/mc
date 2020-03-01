@@ -10,6 +10,13 @@ client.on('message', message => {
     if(message.content.startsWith('!dm')) {
     if(message.author.id === "353967891319619587" ||
 message.author.id === "545603371525079042"){
+      let embed = new Discord.RichEmbed()
+            .setTitle('Sending...')
+            .setColor('RANDOM')
+            .setFooter('Wait')
+            .setTimestamp()
+        
+        message.channel.send(embed);
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
