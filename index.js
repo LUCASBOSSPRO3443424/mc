@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', message => {    
     if(message.content.startsWith('!dm')) {
     if(message.author.id === "353967891319619587" ||
-message.author.id === "545603371525079042"){
+message.author.id === "545603371525079042" || message.author.id === "681204189497524226"){
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
