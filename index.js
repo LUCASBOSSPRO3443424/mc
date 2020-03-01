@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('DenisRo and LucasYogr bot')
+  client.user.setGame('DenisRo and AlexSeller and LucasYogr bot')
 })   
 
 client.on('message', message => {    
