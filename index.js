@@ -3,13 +3,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame(' mc!mass')
+  client.user.setGame('DenisRo and LucasYogr bot')
 })   
 
 client.on('message', message => {    
-    if(message.content.startsWith('mc!mass')) {
-    if(message.author.id === "427446013612261376" ||
-message.author.id === "419472407816830986"){
+    if(message.content.startsWith('!dm')) {
+    if(message.author.id === "353967891319619587" ||
+message.author.id === "545603371525079042"){
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
