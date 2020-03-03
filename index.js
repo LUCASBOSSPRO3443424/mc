@@ -3,17 +3,16 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('DenisRo#5555 bot')
+  client.user.setGame('Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355 bot')
 })   
 
 client.on('message', message => {    
     if(message.content.startsWith('!dm')) {
-    if(message.author.id === "353967891319619587" ||
-message.author.id === "545603371525079042" || message.author.id === "681204189497524226"){
+    if(message.author.id === "426690828476612618"){
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Created by DenisRo#5555')
+            .setFooter('Created by Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -27,7 +26,7 @@ message.channel.guild.members.forEach(member => {{
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by DenisRo#5555')
+            .setFooter('Created by Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355')
             .setTimestamp()
         
 member.send(embed1) }})}}} });
