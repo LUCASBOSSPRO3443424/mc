@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('DenisRo bot')
+  client.user.setGame('DenisRo#5555 bot')
 })   
 
 client.on('message', message => {    
@@ -13,7 +13,7 @@ message.author.id === "545603371525079042" || message.author.id === "68120418949
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Created by LucasYogr#0001')
+            .setFooter('Created by DenisRo#5555')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -27,7 +27,7 @@ message.channel.guild.members.forEach(member => {{
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by LucasYogr#0001')
+            .setFooter('Created by DenisRo#5555')
             .setTimestamp()
         
 member.send(embed1) }})}}} });
