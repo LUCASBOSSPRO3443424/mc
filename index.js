@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355 bot')
+  client.user.setGame('Counter-Strike: Global Offensive')
 })   
 
 client.on('message', message => {    
