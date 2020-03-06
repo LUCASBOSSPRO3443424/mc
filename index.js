@@ -39,7 +39,7 @@ if(message.content.startsWith('!say')) {
             .setFooter('Created by PandaWards')
             .setTimestamp()
         
-  message.channel.send(embed);};
+  message.channel.send(embed)};
   
 
 client.on('message', message =>{
