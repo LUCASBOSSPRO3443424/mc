@@ -3,16 +3,16 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('Counter-Strike: Global Offensive')
+  client.user.setGame('Fortnite')
 })   
 
 client.on('message', message => {    
     if(message.content.startsWith('!dm')) {
-    if(message.author.id === "426690828476612618"){
+    if(message.author.id === "624936872275083317" || essage.author.id === "353967891319619587"){
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Created by Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355')
+            .setFooter('Created by PandaWars')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -26,7 +26,7 @@ message.channel.guild.members.forEach(member => {{
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by Vipex𝐟ᶸᶜᵏᵧₒᵤ💔(150 +reps)#3355')
+            .setFooter('Created by PandaWars')
             .setTimestamp()
         
 member.send(embed1) }})}}} });
