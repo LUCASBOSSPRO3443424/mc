@@ -12,7 +12,7 @@ client.on('message', message => {
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Created by PandaWars')
+            .setFooter('Created by PandaWards')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -26,7 +26,7 @@ message.channel.guild.members.forEach(member => {{
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by PandaWars')
+            .setFooter('Created by PandaWards')
             .setTimestamp()
         
 member.send(embed1) }})}}} });
