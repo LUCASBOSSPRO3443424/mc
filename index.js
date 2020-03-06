@@ -39,7 +39,7 @@ client.on('message', message =>{
     let embed = new Discord.RichEmbed()
             .setTitle('No Invite Link')
             .setColor('RANDOM')
-            .setFooter('No invite link!')
+            .setFooter('Created by PandaWards')
             .setTimestamp()
         
         message.channel.send(embed);
