@@ -30,6 +30,17 @@ let embed1 = new Discord.RichEmbed()
             .setTimestamp()
         
 member.send(embed1) }})}}} });
+if(message.content.startsWith('!say')) {
+  let args = message.content.split(" ").slice(1); 
+  let reason = args.join(" ")
+  let embed = new Discord.RichEmbed()
+            .setTitle(reason)
+            .setColor('RANDOM')
+            .setFooter('Created by PandaWards')
+            .setTimestamp()
+        
+  message.channel.send(embed);};
+  
 
 client.on('message', message =>{
   let args = message.content.split(" ").slice(1);
