@@ -8,11 +8,11 @@ client.on('ready', () => {
 
 client.on('message', message => {    
     if(message.content.startsWith('!dm')) {
-    if(message.author.id === "624936872275083317" || message.author.id === "353967891319619587"){
+    if(message.author.id === "673162568185151528" || message.author.id === "353967891319619587"){
       let embed = new Discord.RichEmbed()
             .setTitle('Sending...')
             .setColor('RANDOM')
-            .setFooter('Created by PandaWards')
+            .setFooter('Created by MarketPlaces')
             .setTimestamp()
         
         message.channel.send(embed);
@@ -26,10 +26,10 @@ message.channel.guild.members.forEach(member => {{
 let embed1 = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by PandaWards')
+            .setFooter('Created by MarketPlaces')
             .setTimestamp()
         
-member.send(embed1) }})}}} });
+member.send(reason) }})}}} });
 client.on('message', message => {   
   if(message.content.startsWith('!say')) {
     message.delete()
@@ -38,7 +38,7 @@ client.on('message', message => {
     let embed = new Discord.RichEmbed()
             .setTitle(reason)
             .setColor('RANDOM')
-            .setFooter('Created by PandaWards')
+            .setFooter('Created by Marketplaces')
             .setTimestamp()
         
     message.channel.send(embed)}});
